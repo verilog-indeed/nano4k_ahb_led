@@ -1,0 +1,70 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_interconnect.vhd'
+Analyzing entity 'ahb_interconnect'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_interconnect.vhd":5)
+Analyzing architecture 'behave'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_interconnect.vhd":12)
+Analyzing VHDL file 'C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_led.vhd'
+Analyzing entity 'ahb_led'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_led.vhd":4)
+Analyzing architecture 'behave'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_led.vhd":25)
+Analyzing VHDL file 'C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd'
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing VHDL file 'C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd'
+Analyzing entity 'soc_top'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":4)
+Analyzing architecture 'structural'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":12)
+WARN  (EX4232) : Formal port 'master_exresp' has no actual or default value("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":138)
+'master_exresp' is declared here("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":38)
+'master_hruser' is declared here("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":39)
+Processing 'soc_top(structural)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":4)
+Processing 'ahb_led(behave)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_led.vhd":4)
+WARN  (EX4232) : Formal port 'master_exresp' has no actual or default value("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":38)
+WARN  (EX4232) : Formal port 'master_hruser' has no actual or default value("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":39)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+WARN  (EX4232) : Formal port '**' has no actual or default value("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\gowin_empu\gowin_empu.vhd":0)
+Processing 'ahb_interconnect(behave)'("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\ahb_interconnect.vhd":5)
+WARN  (EX1947) : Input port 'master_exresp' remains unconnected for this instance("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":110)
+WARN  (EX1947) : Input port 'master_hruser[2]' remains unconnected for this instance("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":110)
+WARN  (EX1947) : Input port 'master_hruser[1]' remains unconnected for this instance("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":110)
+WARN  (EX1947) : Input port 'master_hruser[0]' remains unconnected for this instance("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":110)
+NOTE  (EX0101) : Current top module is "soc_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ahb_interconnect" instantiated to "my_decoder" is swept in optimizing("C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\soc_top.vhd":140)
+[95%] Generate netlist file "C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\impl\gwsynthesis\CM3_AHB_LED.vg" completed
+[100%] Generate report file "C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\impl\gwsynthesis\CM3_AHB_LED_syn.rpt.html" completed
+GowinSynthesis finish

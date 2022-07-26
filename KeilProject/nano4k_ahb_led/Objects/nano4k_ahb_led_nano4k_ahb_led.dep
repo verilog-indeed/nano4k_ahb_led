@@ -1,0 +1,204 @@
+Dependencies for Project 'nano4k_ahb_led', Target 'nano4k_ahb_led': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\CORE\core_cm3.c)(0x5FFD65FD)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+F (.\CORE\core_cm3.h)(0x5FFD65FD)()
+F (.\CORE\core_cmFunc.h)(0x5FFD65FD)()
+F (.\CORE\core_cmInstr.h)(0x5FFD65FD)()
+F (.\STARTUP\startup_gw1ns4c.s)(0x60136815)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 536" --pd "ARMCM3 SETA 1"--list .\listings\startup_gw1ns4c.lst --xref -o .\objects\startup_gw1ns4c.o --depend .\objects\startup_gw1ns4c.d)
+F (.\SYSTEM\system_gw1ns4c.c)(0x62A48D2B)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\system_gw1ns4c.o --omf_browse .\objects\system_gw1ns4c.crf --depend .\objects\system_gw1ns4c.d)
+I (SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\SYSTEM\gw1ns4c.h)(0x60136B7E)()
+F (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)()
+F (.\PERIPHERAL\Sources\gw1ns4c_gpio.c)(0x60136C0A)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_gpio.o --omf_browse .\objects\gw1ns4c_gpio.crf --depend .\objects\gw1ns4c_gpio.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_i2c.c)(0x6013A7A9)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_i2c.o --omf_browse .\objects\gw1ns4c_i2c.crf --depend .\objects\gw1ns4c_i2c.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_misc.c)(0x60136C47)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_misc.o --omf_browse .\objects\gw1ns4c_misc.crf --depend .\objects\gw1ns4c_misc.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_rtc.c)(0x6013A7B8)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_rtc.o --omf_browse .\objects\gw1ns4c_rtc.crf --depend .\objects\gw1ns4c_rtc.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+F (.\PERIPHERAL\Sources\gw1ns4c_spi.c)(0x60C96E50)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_spi.o --omf_browse .\objects\gw1ns4c_spi.crf --depend .\objects\gw1ns4c_spi.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_syscon.c)(0x60136DCD)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_syscon.o --omf_browse .\objects\gw1ns4c_syscon.crf --depend .\objects\gw1ns4c_syscon.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_timer.c)(0x60137416)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_timer.o --omf_browse .\objects\gw1ns4c_timer.crf --depend .\objects\gw1ns4c_timer.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_uart.c)(0x60137509)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_uart.o --omf_browse .\objects\gw1ns4c_uart.crf --depend .\objects\gw1ns4c_uart.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Sources\gw1ns4c_wdog.c)(0x6013752E)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\gw1ns4c_wdog.o --omf_browse .\objects\gw1ns4c_wdog.crf --depend .\objects\gw1ns4c_wdog.d)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)()
+F (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)()
+F (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)()
+F (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)()
+F (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)()
+F (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)()
+F (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)()
+F (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)()
+F (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)()
+F (.\USER\main.c)(0x62A72AEC)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+I (USER\ahb_led.h)(0x62A71CE1)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602585E4)
+F (.\USER\ahb_led.c)(0x62A71CFB)(-c --cpu Cortex-M3 -D__EVAL --li -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\PERIPHERAL\Includes -I .\SYSTEM -I .\USER-IC:\Users\trashcan\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="536" -DARMCM3-o .\objects\ahb_led.o --omf_browse .\objects\ahb_led.crf --depend .\objects\ahb_led.d)
+I (USER\ahb_led.h)(0x62A71CE1)
+I (.\SYSTEM\gw1ns4c.h)(0x60136B7E)
+I (.\CORE\core_cm3.h)(0x5FFD65FD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (.\SYSTEM\system_gw1ns4c.h)(0x60136BA2)
+I (.\USER\gw1ns4c_conf.h)(0x6013755D)
+I (.\PERIPHERAL\Includes\gw1ns4c_gpio.h)(0x60136947)
+I (.\PERIPHERAL\Includes\gw1ns4c_wdog.h)(0x60136A84)
+I (.\PERIPHERAL\Includes\gw1ns4c_uart.h)(0x60136A5F)
+I (.\PERIPHERAL\Includes\gw1ns4c_timer.h)(0x60136A3E)
+I (.\PERIPHERAL\Includes\gw1ns4c_spi.h)(0x60C96E7F)
+I (.\PERIPHERAL\Includes\gw1ns4c_i2c.h)(0x60136964)
+I (.\PERIPHERAL\Includes\gw1ns4c_misc.h)(0x601369A9)
+I (.\PERIPHERAL\Includes\gw1ns4c_syscon.h)(0x60136A1A)
+I (.\PERIPHERAL\Includes\gw1ns4c_rtc.h)(0x601369C9)
+F (.\USER\ahb_led.h)(0x62A71CE1)()

@@ -1,0 +1,3 @@
+`define GOWIN_UART0_SUPPORT
+`define GOWIN_AHB2_M_SUPPORT
+`define NUM_BRAMS_8

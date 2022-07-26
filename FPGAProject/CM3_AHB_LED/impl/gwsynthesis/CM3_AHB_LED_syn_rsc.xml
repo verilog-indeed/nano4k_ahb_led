@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="soc_top" Register="127" Lut="145" Bsram="8">
+    <SubModule name="my_led" Register="32" Lut="47"/>
+</Module>

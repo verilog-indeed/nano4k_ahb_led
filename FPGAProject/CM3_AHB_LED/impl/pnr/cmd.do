@@ -1,0 +1,10 @@
+-d C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\impl\gwsynthesis\CM3_AHB_LED.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\src\CM3_AHB_LED.cst
+-cfg C:\Users\trashcan\Documents\Gowin\CM3_AHB_LED\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

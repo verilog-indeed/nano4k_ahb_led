@@ -1,0 +1,17 @@
+.\objects\ahb_led.o: USER\ahb_led.c
+.\objects\ahb_led.o: USER\ahb_led.h
+.\objects\ahb_led.o: .\SYSTEM\gw1ns4c.h
+.\objects\ahb_led.o: .\CORE\core_cm3.h
+.\objects\ahb_led.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ahb_led.o: .\SYSTEM\system_gw1ns4c.h
+.\objects\ahb_led.o: .\USER\gw1ns4c_conf.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_gpio.h
+.\objects\ahb_led.o: .\SYSTEM\gw1ns4c.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_wdog.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_uart.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_timer.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_spi.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_i2c.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_misc.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_syscon.h
+.\objects\ahb_led.o: .\PERIPHERAL\Includes\gw1ns4c_rtc.h

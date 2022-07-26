@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/soc_top.vhd",
+  "InstLine" : 4,
+  "InstName" : "soc_top",
+  "ModuleFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/soc_top.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "soc_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/soc_top.vhd",
+    "InstLine" : 110,
+    "InstName" : "my_cm3",
+    "ModuleFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/gowin_empu/gowin_empu.vhd",
+    "ModuleLine" : 1,
+    "ModuleName" : "Gowin_EMPU_Top"
+   },
+   {
+    "InstFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/soc_top.vhd",
+    "InstLine" : 90,
+    "InstName" : "my_led",
+    "ModuleFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/ahb_led.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "ahb_led"
+   },
+   {
+    "InstFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/soc_top.vhd",
+    "InstLine" : 140,
+    "InstName" : "my_decoder",
+    "ModuleFile" : "C:/Users/trashcan/Documents/Gowin/CM3_AHB_LED/src/ahb_interconnect.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "ahb_interconnect"
+   }
+  ]
+ }
+]
